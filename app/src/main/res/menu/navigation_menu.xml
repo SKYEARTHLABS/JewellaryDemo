@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_account"
+        android:icon="@mipmap/baseline_person_black_24dp"
+        android:title="Gold Ring"/>
+
+    <item android:id="@+id/nav_settings"
+        android:icon="@mipmap/baseline_settings_black_24dp"
+        android:title="Gold Bracelet"/>
+    <item android:id="@+id/nav_message"
+        android:icon="@mipmap/baseline_settings_black_24dp"
+        android:title="Gold Jhumka"/>
+    <item android:id="@+id/nav_aboutus"
+        android:icon="@mipmap/baseline_settings_black_24dp"
+        android:title="About Us"/>
+
+    <item android:id="@+id/nav_logout"
+        android:icon="@mipmap/baseline_exit_black_24dp"
+        android:title="Logout"/>
+</menu>

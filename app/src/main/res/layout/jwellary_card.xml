@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="280dp">
+
+    <ImageView
+        android:id="@+id/img_jwellary"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/demo_image"
+        app:layout_constraintBottom_toTopOf="@+id/txt_jwelary_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/txt_jwelary_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:text="Hand Band"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_jwelary_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_jwellary" />
+
+    <TextView
+        android:id="@+id/txt_jwelary_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:padding="8dp"
+        android:text="Rs. 2,000.00"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_jwelary_name" />
+
+
+
+</RelativeLayout>

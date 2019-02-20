@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txt_jwelary_name" type="id" />
+    <item name="txt_jwelary_price" type="id" />
+    <item name="img_jwellary" type="id" />
+    <item name="verify_code" type="id" />
+    <item name="editEmail" type="id" />
+    <item name="register" type="id" />
+    <item name="confirm_password" type="id" />
+    <item name="button_register" type="id" />
+    <item name="nestedScrollView" type="id" />
+    <item name="textInputLayoutEmail" type="id" />
+    <item name="textInputLayoutPassword" type="id" />
+    <item name="textInputEditTextEmail" type="id" />
+    <item name="textInputEditTextPassword" type="id" />
+    <item name="appCompatButtonLogin" type="id" />
+    <item name="textViewLinkRegister" type="id" />
+    <item name="textInputLayoutName" type="id" />
+    <item name="textInputLayoutConfirmPassword" type="id" />
+    <item name="textInputEditTextName" type="id" />
+    <item name="textInputEditTextConfirmPassword" type="id" />
+    <item name="appCompatButtonRegister" type="id" />
+    <item name="appCompatTextViewLoginLink" type="id" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jwel_name">
+        <item>gold_earrings</item>
+        <item>golden_band</item>
+        <item>golden_earring</item>
+        <item>golden_hand_band</item>
+        <item>hand_band</item>
+        <item>jhumka</item>
+        <item>necklase_perl</item>
+        <item>neckless</item>
+        <item>ring</item>
+    </string-array>
+    <string-array name="jwel_rate">
+        <item>12000 Rs</item>
+        <item>15300 Rs</item>
+        <item>12800 Rs</item>
+        <item>9000 Rs</item>
+        <item>11100 Rs</item>
+        <item>12700 Rs</item>
+        <item>42100 Rs</item>
+        <item>42900 Rs</item>
+        <item>22200 Rs</item>
+    </string-array>
+</resources>

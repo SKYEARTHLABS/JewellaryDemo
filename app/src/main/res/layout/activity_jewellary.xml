@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JewellaryActivity"
+    android:background="@mipmap/back">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_jwel"
+        android:clipToPadding="true"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="70dp"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/nav_action1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/AlertDialog.AppCompat.Light"
+        app:navigationIcon="@drawable/baseline_arrow_back_black_18dp">
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

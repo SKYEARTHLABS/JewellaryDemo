@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/nav_action"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_primary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/AlertDialog.AppCompat.Light"
+    app:navigationIcon="@drawable/baseline_arrow_back_black_18dp">
+</android.support.v7.widget.Toolbar>
